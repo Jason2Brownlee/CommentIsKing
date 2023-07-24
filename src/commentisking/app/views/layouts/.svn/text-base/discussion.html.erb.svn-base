@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title><%= site_name %></title>
+                  <%= stylesheet_link_tag 'main', :cache => 'main_c' %>
+                  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+		  <%= javascript_include_tag 'json2', :cache => 'json2_c' %>
+		  <%= javascript_include_tag 'swfobject', :cache => 'swfobject_c' %>
+		  <%= javascript_include_tag 'cb', :cache => 'cb_c' %>
+	</head>
+	<body>	
+		
+					<div class="header">  
+	                <h1><%= link_to image_tag("logo.png", :alt => site_name), root_path %></h1>
+                        <%= render :partial => "welcome/submit_form" %>
+	              </div>	              
+				
+				
+              <div class="wrapper">	
+		<%= yield %>
+              </div>
+
+<%= render :partial => "layouts/analytics" %>
+	</body>
+</html>
+

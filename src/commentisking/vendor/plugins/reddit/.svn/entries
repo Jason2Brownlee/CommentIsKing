@@ -1,0 +1,109 @@
+8
+
+dir
+107
+http://svn.commentisking.com/trunk/vendor/plugins/reddit
+http://svn.commentisking.com
+
+
+
+2008-09-22T08:24:22.920196Z
+107
+jason
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10abe6b2-da0a-46b8-8788-61be96a6af4b
+
+History.txt
+file
+
+
+
+
+2008-09-22T01:43:03.000000Z
+a2167a3bfbe99cb9528f555c3df245ee
+2008-09-08T07:08:37.968823Z
+1
+jason
+
+License.txt
+file
+
+
+
+
+2008-09-22T01:43:03.000000Z
+e25b5f462046884cc22ff8e7a69a725c
+2008-09-08T07:08:37.968823Z
+1
+jason
+
+Rakefile
+file
+
+
+
+
+2008-09-22T01:43:03.000000Z
+637bc798f463ef4172a7405e89cd2eb1
+2008-09-08T07:08:37.968823Z
+1
+jason
+
+Manifest.txt
+file
+
+
+
+
+2008-09-22T01:43:03.000000Z
+5a9d93254a8bcb693a4aafc82cf63d2e
+2008-09-08T07:08:37.968823Z
+1
+jason
+
+tasks
+dir
+
+lib
+dir
+
+spec
+dir
+
+README.txt
+file
+
+
+
+
+2008-09-22T01:43:03.000000Z
+f6554ec49a27731bf06c198d5b849dee
+2008-09-08T07:08:37.968823Z
+1
+jason
+
+reddit.gemspec
+file
+
+
+
+
+2008-09-22T01:43:03.000000Z
+e8ccc2b3042c45d0a029767b9964f753
+2008-09-08T07:08:37.968823Z
+1
+jason
+

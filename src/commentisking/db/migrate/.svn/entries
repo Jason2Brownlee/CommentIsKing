@@ -1,0 +1,40 @@
+8
+
+dir
+107
+http://svn.commentisking.com/trunk/db/migrate
+http://svn.commentisking.com
+
+
+
+2008-09-14T01:54:28.475129Z
+82
+jason
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10abe6b2-da0a-46b8-8788-61be96a6af4b
+
+20080914002928_create_submission1s.rb
+file
+
+
+
+
+2008-09-22T01:43:02.000000Z
+e4309195a6edb014aa20a3eb54889ba3
+2008-09-14T01:54:28.475129Z
+82
+jason
+

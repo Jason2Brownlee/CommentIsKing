@@ -1,0 +1,43 @@
+8
+
+dir
+107
+http://svn.commentisking.com/trunk/vendor/plugins/reddit/lib
+http://svn.commentisking.com
+
+
+
+2008-09-22T08:24:22.920196Z
+107
+jason
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10abe6b2-da0a-46b8-8788-61be96a6af4b
+
+reddit
+dir
+
+reddit.rb
+file
+
+
+
+
+2008-09-22T01:43:02.000000Z
+cf5b87de67671d70b7c1e397b07e246d
+2008-09-08T07:08:37.968823Z
+1
+jason
+

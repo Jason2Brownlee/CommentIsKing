@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/88/trunk/app/views/delicious_comments
+END
+_delicious_comment.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/88/trunk/app/views/delicious_comments/_delicious_comment.html.erb
+END

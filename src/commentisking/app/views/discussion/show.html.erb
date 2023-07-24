@@ -1,0 +1,58 @@
+<!-- header -->
+<% if not @submission.post_title.blank? %>
+	<h2><%= @submission.post_title %></h2>
+<% end %>
+<!-- link -->
+
+<% if !@submission.icon.nil? %>
+	<%= image_tag @submission.icon, :alt=>"", :class=>"favicon" %>
+<% end %>
+<div class="post_url">
+<%= link_to @submission.address, @submission.address %>
+</div>
+<br class="clear" />
+
+<!-- summary -->
+<%= render :partial => "summary", :locals=>{:summary=>@summary} %>
+
+<% if !@feed.blank? %>
+	<div style="font-size:80%">
+		Oldest comment <%= distance_of_time_in_words_to_now @feed.first.date %>,
+		most recent comment <%= distance_of_time_in_words_to_now @feed.last.date %>
+	</div>
+	<br/>
+<% end %>
+
+<!-- graph -->
+<% if !@graph_json.blank? %>
+	<%= inline_graph2(@graph_json, {:width=>780, :height=>150}) %>
+<% end %>
+
+
+<h3>Feed</h3>
+<!-- vet comments -->
+<%
+@feed.each do |comment|
+	if comment.instance_of?(FriendFeedPost)
+	  if !comment.ff_comments.empty?
+	     %>
+		<%= render :partial => comment %>
+		<%
+	  end
+	elsif comment.instance_of?(DiggPost)
+	  if !comment.comments.empty?
+	     %>
+		<%= render :partial => comment %>
+		<%
+	  end
+	elsif !comment.content.blank?
+	     %>
+		<%= render :partial => comment %>
+		<%
+	end
+end
+%>
+
+
+
+

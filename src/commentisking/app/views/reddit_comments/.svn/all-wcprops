@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/107/trunk/app/views/reddit_comments
+END
+_reddit_comment.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/107/trunk/app/views/reddit_comments/_reddit_comment.html.erb
+END

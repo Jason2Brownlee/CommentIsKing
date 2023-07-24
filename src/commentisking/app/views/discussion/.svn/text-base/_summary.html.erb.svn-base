@@ -1,0 +1,56 @@
+<%
+# expected: summary
+%>
+
+<div style="font-size:80%">
+	<!-- general -->
+	Comments: 
+	
+	<!-- blog -->
+	<% if summary.blog_comments>0 %>
+		<%= "#{summary.blog_comments} blog" %>
+		<span style="font-size:80%">
+			(<%= link_to "subscribe", summary.blog_source %>)
+		</span>
+	<% end %>
+	
+	<!-- delicious -->
+	<% if summary.delicious_posts>0 %>
+		<%= image_tag("ico_delicious.png", :alt => "delicious") %>
+		<%= ((summary.delicious_posts==100) ? ">#{summary.delicious_posts}" : summary.delicious_posts ) %>
+		<span style="font-size:80%">
+			(<%= link_to "subscribe", summary.delicious_source %>)
+		</span>
+	<% end %>
+	
+	<!-- twitter -->
+	<% if summary.tweets>0 %>
+		<%= image_tag("ico_twitter.png", :alt => "twitter") %>
+		<%= "#{summary.tweets}" %>
+		<span style="font-size:80%">
+			(<%= link_to "subscribe", summary.tweets_source %>)
+		</span>
+	<% end %>
+	
+	<!-- friend feed -->
+	<% if summary.ff_posts>0 %>
+		<%= image_tag("ico_friendfeed.png", :alt => "friendfeed") %>
+		<%= "#{summary.total_ff}" %>
+		<span style="font-size:80%">
+			(<%= link_to "subscribe", summary.ff_source %>)
+		</span>
+	<% end %>
+	
+	<!-- digg -->
+	<% if summary.total_digg>0 %>
+		<%= image_tag("ico_digg.png", :alt => "digg") %>
+		<%= "#{summary.total_digg}" %>
+	<% end %>
+	
+	<!-- reddit -->
+	<% if summary.total_reddit>0 %>
+		<%= image_tag("ico_reddit.png", :alt => "reddit", :size=>"15x15") %>
+		<%= "#{summary.total_reddit}" %>
+	<% end %>
+	
+</div>

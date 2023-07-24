@@ -1,0 +1,17 @@
+<!-- explanation -->
+<div style="color:white;">
+	Submit the URL to a blog post and browse the broader conversation.
+</div>
+
+
+<!-- form -->
+<p class="error"><%= flash[:notice] %></p>
+<%= render :partial => "submit_form" %>
+
+
+<!-- recent submission -->
+<div class="submissions">
+  <h2>Recent Submissions</h2>
+  <%= render :partial => @recent_submissions %>
+</div>
+

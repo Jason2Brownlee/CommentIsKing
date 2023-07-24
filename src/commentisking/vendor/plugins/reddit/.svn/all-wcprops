@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/107/trunk/vendor/plugins/reddit
+END
+History.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/1/trunk/vendor/plugins/reddit/History.txt
+END
+License.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/1/trunk/vendor/plugins/reddit/License.txt
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/1/trunk/vendor/plugins/reddit/Rakefile
+END
+Manifest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/1/trunk/vendor/plugins/reddit/Manifest.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/1/trunk/vendor/plugins/reddit/README.txt
+END
+reddit.gemspec
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/1/trunk/vendor/plugins/reddit/reddit.gemspec
+END

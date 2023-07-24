@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/105/trunk/app/views/welcome
+END
+_submit_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/75/trunk/app/views/welcome/_submit_form.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/105/trunk/app/views/welcome/index.html.erb
+END

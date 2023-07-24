@@ -1,0 +1,39 @@
+<%
+# Expect: wordpress_comment
+%>
+<div class="comment">
+<div class="avatar"></div>
+  <div class="cbb">
+	<p class="content">
+          <% if not wordpress_comment.title.nil? %>
+            <% if not wordpress_comment.link.nil? %>
+              <%= link_to wordpress_comment.title, wordpress_comment.link %>
+            <% else %>
+              <%=h wordpress_comment.title %>
+            <% end %>
+          <br /><br />
+	<% end %>
+        <%= wordpress_comment.content %>
+        </p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info">
+            <% if not wordpress_comment.author.nil? %>
+              <% if not wordpress_comment.author.profile_url.nil? %>
+                <%= link_to wordpress_comment.author.name , wordpress_comment.author.profile_url %>,
+              <%else%>
+                <%=h wordpress_comment.author.name %>,
+              <%end%>
+            <% end %>
+            <%=h distance_of_time_in_words_to_now( wordpress_comment.date )%> 
+            ago via 
+            <% if !@submission.icon.nil? %>
+                <%= image_tag @submission.icon, :alt=>"wordpress" %>
+            <% else %>
+                <%= image_tag("ico_wordpress.png", :alt => "wordpress") %>
+            <% end %>
+            <span class="wordpress">post</span></span>
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>

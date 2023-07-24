@@ -1,0 +1,17 @@
+<%
+# Expect: friend_feed_comment
+%>
+<div class="comment">
+<div class="avatar"></div>
+  <div class="cbb">
+	<p class="content"><%=h friend_feed_comment.content %></p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info">
+            <%= link_to "#{friend_feed_comment.author.name} (#{friend_feed_comment.author.nickname})", friend_feed_comment.author.profile_url %>, 
+            <%=h distance_of_time_in_words_to_now(friend_feed_comment.date)%> 
+            ago via <span class="friendfeed">friendfeed</span></span>
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>

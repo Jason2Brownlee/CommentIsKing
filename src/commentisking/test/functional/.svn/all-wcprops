@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/1/trunk/test/functional
+END
+welcome_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/1/trunk/test/functional/welcome_controller_test.rb
+END
+discussion_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/1/trunk/test/functional/discussion_controller_test.rb
+END

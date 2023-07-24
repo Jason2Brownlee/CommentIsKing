@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/107/trunk/vendor/plugins/reddit/lib/reddit
+END
+comment_list.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/1/trunk/vendor/plugins/reddit/lib/reddit/comment_list.rb
+END
+submit_list.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5/trunk/vendor/plugins/reddit/lib/reddit/submit_list.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/1/trunk/vendor/plugins/reddit/lib/reddit/user.rb
+END
+comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/1/trunk/vendor/plugins/reddit/lib/reddit/comment.rb
+END
+resource_list.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/1/trunk/vendor/plugins/reddit/lib/reddit/resource_list.rb
+END
+article.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/1/trunk/vendor/plugins/reddit/lib/reddit/article.rb
+END
+session.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/107/trunk/vendor/plugins/reddit/lib/reddit/session.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/1/trunk/vendor/plugins/reddit/lib/reddit/version.rb
+END
+info_list.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/107/trunk/vendor/plugins/reddit/lib/reddit/info_list.rb
+END
+reddit.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/1/trunk/vendor/plugins/reddit/lib/reddit/reddit.rb
+END

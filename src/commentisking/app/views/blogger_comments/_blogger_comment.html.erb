@@ -1,0 +1,42 @@
+<%
+# Expect: blogger_comment
+%>
+
+<div class="comment">
+<div class="avatar">
+	<% if !blogger_comment.author.nil? and !blogger_comment.author.image_url.nil? %>
+		<%= image_tag blogger_comment.author.image_url, :alt=>blogger_comment.author.name %>
+	<% end %>
+</div>
+  <div class="cbb">
+	<p class="content">
+          <% if not blogger_comment.title.nil? %>
+            <% if not blogger_comment.link.nil? %>
+                <%= link_to blogger_comment.title, blogger_comment.link %>
+            <% else %>
+              <%=h blogger_comment.title %>
+            <% end %>
+          <br /><br />
+          <% end %>
+          <%= blogger_comment.content %>
+        </p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info">
+        <% if not blogger_comment.author.nil? %>
+          <% if not blogger_comment.author.profile_url.nil? %>
+            <%= link_to blogger_comment.author.name , blogger_comment.author.profile_url %>,
+          <%else%>
+            <%=h blogger_comment.author.name %>,
+          <%end%>
+        <% end %> <%=h distance_of_time_in_words_to_now(blogger_comment.date) %> ago via 
+        <% if !@submission.icon.nil? %>
+            <%= image_tag @submission.icon, :alt=>"blogger" %>
+        <% else %>
+            <%= image_tag("ico_blogger.png", :alt => "blogger") %>
+        <% end %>
+        <span class="blogger">post</span></span>
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>

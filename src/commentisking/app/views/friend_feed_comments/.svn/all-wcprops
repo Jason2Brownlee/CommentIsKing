@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/81/trunk/app/views/friend_feed_comments
+END
+_friend_feed_comment.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/81/trunk/app/views/friend_feed_comments/_friend_feed_comment.html.erb
+END

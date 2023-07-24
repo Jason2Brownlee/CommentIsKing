@@ -1,0 +1,18 @@
+<%
+# Expect: reddit_post
+%>
+
+<div class="comment">
+<div class="avatar"><%= image_tag reddit_post.author.image_url, :alt=>reddit_post.author.name %></div>
+  <div class="cbb">
+	<p class="content">
+          <%= link_to reddit_post.title, reddit_post.link %><br /><br />
+          <%= reddit_post.content %>
+        </p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info"><%=h reddit_post.author.name %>, <%=h distance_of_time_in_words_to_now(reddit_post.date) %> via <%= image_tag("ico_reddit.png", :alt => "reddit", :size=>"15x15") %> <span class="digg">reddit</span></span>
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>

@@ -1,0 +1,15 @@
+<%
+# Expect: twitter_comment
+%>
+
+<div class="comment">
+<div class="avatar"><%= image_tag twitter_comment.author.image_url, :alt=>twitter_comment.author.name %></div>
+  <div class="cbb">
+	<p class="content"><%=h twitter_comment.content %></p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info"><%=h twitter_comment.author.name %>, <%=h distance_of_time_in_words_to_now( twitter_comment.date )%> ago via <%= image_tag("ico_twitter.png", :alt => "twitter") %> <span class="twitter">twitter</span></span>
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>

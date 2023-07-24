@@ -1,0 +1,28 @@
+<%
+# Expect: friend_feed_post
+%>
+<div class="comment">
+<div class="avatar"></div>
+  <div class="cbb">
+	<p class="content">
+          <%=h friend_feed_post.title %><br /><br /><%=h friend_feed_post.content %>
+        </p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info">
+            <%= link_to "#{friend_feed_post.author.name} (#{friend_feed_post.author.nickname})", friend_feed_post.author.profile_url %>,
+            <%=h distance_of_time_in_words_to_now( friend_feed_post.date )%> 
+            ago via <%= image_tag("ico_friendfeed.png", :alt => "friendfeed") %> <span class="friendfeed">friendfeed</span></span>
+            
+            <!-- <%= image_tag friend_feed_post.ff_source_icon, :alt=>friend_feed_post.ff_source_name %>
+            <%= link_to friend_feed_post.ff_source_name, friend_feed_post.ff_source_url %> -->
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>
+
+<div class="reply">
+<% for reply in friend_feed_post.ff_comments %>			
+    <%= render :partial => reply %>
+<% end %>
+</div>

@@ -1,0 +1,52 @@
+8
+
+dir
+107
+http://svn.commentisking.com/trunk/vendor/plugins/reddit/tasks
+http://svn.commentisking.com
+
+
+
+2008-09-08T07:08:37.968823Z
+1
+jason
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10abe6b2-da0a-46b8-8788-61be96a6af4b
+
+environment.rake
+file
+
+
+
+
+2008-09-22T01:43:02.000000Z
+917a284d2b5e33fb48d3ae2937cccfb9
+2008-09-08T07:08:37.968823Z
+1
+jason
+
+rspec.rake
+file
+
+
+
+
+2008-09-22T01:43:02.000000Z
+4f7f41ba95bb41c342efb775b0b6956c
+2008-09-08T07:08:37.968823Z
+1
+jason
+

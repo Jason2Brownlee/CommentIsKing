@@ -1,0 +1,20 @@
+<%
+# Expect: digg_comment
+%>
+
+<div class="comment">
+<div class="avatar"> </div>
+  <div class="cbb">
+	<p class="content"><%= digg_comment.content %></p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info"><%=h digg_comment.author.name %> <%=h distance_of_time_in_words_to_now(digg_comment.date) %> via <%= image_tag("ico_digg.png", :alt => "digg") %>  <span class="digg">digg</span></span>
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>
+<div class="reply">
+  <% if digg_comment.num_replies > 0 %>
+          <%= render :partial=> digg_comment.replies %>
+  <% end %>
+</div>

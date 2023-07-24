@@ -1,0 +1,30 @@
+<%
+# Expect: delicious_comment
+%>
+
+<div class="comment">
+<div class="avatar"></div>
+  <div class="cbb">
+	<p class="content">
+          <%=h delicious_comment.title %>
+          <br /><br />
+          <%=h delicious_comment.content %>
+          <div style="display:none;">
+            <% if !delicious_comment.tags.empty? %>
+              Tags: 
+              <% for t in delicious_comment.tags %>
+                <%=h t %>
+              <% end %>
+            <% end %>
+	</div>
+        </p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info">
+            <%= link_to delicious_comment.author.name , delicious_comment.author.profile_url %>, 
+            <%=h distance_of_time_in_words_to_now( delicious_comment.date )%>
+            ago via <%= image_tag("ico_delicious.png", :alt => "delicious") %> <span class="delicious">delicious</span></span>
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>

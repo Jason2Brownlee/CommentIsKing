@@ -1,0 +1,7 @@
+<%
+# expected: submission
+%>
+
+<div>
+	<%= link_to submission.address, discussion_path(submission) %>
+</div>

@@ -1,0 +1,21 @@
+<%
+# Expect: reddit_comment
+%>
+
+<div class="comment">
+<div class="avatar"> </div>
+  <div class="cbb">
+	<p class="content"><%= reddit_comment.content %></p>
+  </div>
+  <div class="comment_bottom">
+	<span class="info"><%=h reddit_comment.author.name %> <%=h distance_of_time_in_words_to_now(reddit_comment.date) %> via <%= image_tag("ico_reddit.png", :alt => "reddit", :size=>"15x15") %>  <span class="digg">reddit</span></span>
+	<a href="#" class="reply">reply to post</a>
+  </div>
+  <br class="clear" />
+</div>
+<div class="reply">
+	<% for reply in reddit_comment.replies %>
+		<%= render :partial => reply %>
+	<% end %>
+</div>
+<br />

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/45/trunk/vendor/plugins/open_flash_chart_lazy
+END
+History.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/45/trunk/vendor/plugins/open_flash_chart_lazy/History.txt
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/45/trunk/vendor/plugins/open_flash_chart_lazy/Rakefile
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/45/trunk/vendor/plugins/open_flash_chart_lazy/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/45/trunk/vendor/plugins/open_flash_chart_lazy/install.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/45/trunk/vendor/plugins/open_flash_chart_lazy/MIT-LICENSE
+END
+README.textile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/45/trunk/vendor/plugins/open_flash_chart_lazy/README.textile
+END
+uninstall.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/45/trunk/vendor/plugins/open_flash_chart_lazy/uninstall.rb
+END

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/92/trunk/app/views/wordpress_comments
+END
+_wordpress_comment.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/92/trunk/app/views/wordpress_comments/_wordpress_comment.html.erb
+END

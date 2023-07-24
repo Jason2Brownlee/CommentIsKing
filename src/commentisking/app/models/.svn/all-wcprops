@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/!svn/ver/107/trunk/app/models
+END
+reddit_comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/107/trunk/app/models/reddit_comment.rb
+END
+digg_post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/82/trunk/app/models/digg_post.rb
+END
+friend_feed_post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/87/trunk/app/models/friend_feed_post.rb
+END
+discussion_summary.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/108/trunk/app/models/discussion_summary.rb
+END
+reddit_post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/108/trunk/app/models/reddit_post.rb
+END
+comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/82/trunk/app/models/comment.rb
+END
+delicious_comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/82/trunk/app/models/delicious_comment.rb
+END
+blogger_comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/102/trunk/app/models/blogger_comment.rb
+END
+comment_author.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/82/trunk/app/models/comment_author.rb
+END
+twitter_comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/93/trunk/app/models/twitter_comment.rb
+END
+wordpress_comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/82/trunk/app/models/wordpress_comment.rb
+END
+submission.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/108/trunk/app/models/submission.rb
+END
+digg_comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/82/trunk/app/models/digg_comment.rb
+END
+friend_feed_comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/82/trunk/app/models/friend_feed_comment.rb
+END

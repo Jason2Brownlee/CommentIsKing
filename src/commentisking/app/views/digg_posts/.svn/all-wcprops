@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/86/trunk/app/views/digg_posts
+END
+_digg_post.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/86/trunk/app/views/digg_posts/_digg_post.html.erb
+END

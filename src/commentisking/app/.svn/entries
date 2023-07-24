@@ -1,0 +1,40 @@
+8
+
+dir
+107
+http://svn.commentisking.com/trunk/app
+http://svn.commentisking.com
+
+
+
+2008-09-22T08:24:22.920196Z
+107
+jason
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+10abe6b2-da0a-46b8-8788-61be96a6af4b
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+views
+dir
+

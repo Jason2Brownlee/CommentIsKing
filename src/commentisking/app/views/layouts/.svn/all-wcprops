@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/105/trunk/app/views/layouts
+END
+_analytics.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/99/trunk/app/views/layouts/_analytics.html.erb
+END
+application.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/105/trunk/app/views/layouts/application.html.erb
+END
+discussion.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/105/trunk/app/views/layouts/discussion.html.erb
+END

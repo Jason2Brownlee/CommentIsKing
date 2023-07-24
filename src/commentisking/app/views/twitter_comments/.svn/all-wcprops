@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/86/trunk/app/views/twitter_comments
+END
+_twitter_comment.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/86/trunk/app/views/twitter_comments/_twitter_comment.html.erb
+END

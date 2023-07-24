@@ -1,0 +1,6 @@
+
+    <% form_for :submission, @submission, :url => {:controller => "welcome", :action=>"submit"}, :html => {:class => "url_submit"} do |f| %>
+    <%= f.text_field :address, {:size=>60} %>
+    <%= f.submit "Go" %>
+    <% end %>
+
